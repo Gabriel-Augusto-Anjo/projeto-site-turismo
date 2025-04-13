@@ -46,6 +46,10 @@ main section h1 {
     margin-bottom: 8px;
 }
 
+main section + section h1 {
+    margin-bottom: 4px;
+}
+
 main section img {
     margin-top: 64px;
     margin-bottom: 20px;
@@ -59,9 +63,29 @@ main section ul li {
     margin-bottom: 40px;
 }
 
+.conteudo ul {
+    font-weight: 800;
+}
+
+.conteudo li {
+    color: #0C51A7;
+}
+
 
 .conteudo hr {
     border-color: #D9D9D9;
+}
+
+.lista li{
+    color: #591B98;
+}
+
+.lista li + li {
+   color:  #E5245E;
+}
+
+.lista li + li + li {
+    color: #E95E10;
 }
 
 footer {
